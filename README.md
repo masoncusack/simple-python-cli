@@ -2,8 +2,17 @@
 
 Built using [this tutorial](https://typer.tiangolo.com/tutorial/package/).
 
+Tested on macOS.
+
 Prerequisites:
 - [Poetry](https://python-poetry.org/)
+
+Install poetry with:
+
+```bash
+curl -sSL https://install.python-poetry.org | python - && \
+export PATH="$HOME/.poetry/bin:$PATH"
+```
 
 Change the name of the CLI, and point it to the [typer](https://github.com/tiangolo/typer) app, in `pyproject.toml`:
 
